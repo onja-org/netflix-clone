@@ -36400,13 +36400,123 @@ OptForm.Text = function OptFormText(_ref4) {
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.Logo = exports.ButtonLink = exports.Link = exports.Container = exports.Background = void 0;
+exports.Profile = exports.Dropdown = exports.Picture = exports.SearchInput = exports.SearchIcon = exports.Search = exports.PlayButton = exports.FeatureCallOut = exports.Feature = exports.Text = exports.Group = exports.Logo = exports.ButtonLink = exports.Link = exports.Container = exports.Background = void 0;
 
 var _styledComponents = _interopRequireDefault(require("styled-components"));
 
 var _reactRouterDom = require("react-router-dom");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _templateObject16() {
+  var data = _taggedTemplateLiteral(["\n\tdisplay: flex;\n\talign-items: center;\n\tmargin-left: 20px;\n\tposition: relative;\n\n\tbutton {\n\t\tcursor: pointer;\n\t}\n\n\t&:hover > ", " {\n\t\tdisplay: flex;\n\t\tflex-direction: column;\n\t}\n"]);
+
+  _templateObject16 = function _templateObject16() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject15() {
+  var data = _taggedTemplateLiteral(["\n\tdisplay: none;\n\tposition: absolute;\n\tbackground-color: black;\n\tpadding: 10px;\n\twidth: 100px;\n\ttop: 32px;\n\tright: 10px;\n\n\t", ":last-of-type ", " {\n\t\tcursor: pointer;\n\t}\n\n\t", " {\n\t\tmargin-bottom: 10px;\n\n\t\t&:last-of-type {\n\t\t\tmargin-bottom: 0;\n\t\t}\n\n\t\t", ", ", " {\n\t\t\tcursor: default;\n\t\t}\n\t}\n\n\tbutton {\n\t\tmargin-right: 10px;\n\t}\n\n\tp {\n\t\tfont-size: 12px;\n\t\tmargin-bottom: 0;\n\t\tmargin-top: 0;\n\t}\n"]);
+
+  _templateObject15 = function _templateObject15() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject14() {
+  var data = _taggedTemplateLiteral(["\n\tbackground: url(", ");\n\tbackground-size: contain;\n\tborder: 0;\n\twidth: 32px;\n\theight: 32px;\n\tcursor: pointer;\n"]);
+
+  _templateObject14 = function _templateObject14() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject13() {
+  var data = _taggedTemplateLiteral(["\n\tbackground-color: #44444459;\n\tcolor: white;\n\tborder: 1px solid white;\n\ttransition: width 0.5s;\n\theight: 30px;\n\tfont-size: 14px;\n\tmargin-left: ", ";\n\tpadding: ", ";\n\topacity: ", ";\n\twidth: ", ";\n"]);
+
+  _templateObject13 = function _templateObject13() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject12() {
+  var data = _taggedTemplateLiteral(["\n\tcursor: pointer;\n\tbackground-color: transparent;\n\tborder: 0;\n\n\timg {\n\t\tfilter: brightness(0) invert(1);\n\t\twidth: 16px;\n\t}\n"]);
+
+  _templateObject12 = function _templateObject12() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject11() {
+  var data = _taggedTemplateLiteral(["\n\tdisplay: flex;\n\talign-items: center;\n\n\t@media (max-width: 700px) {\n\t\tdisplay: none;\n\t}\n"]);
+
+  _templateObject11 = function _templateObject11() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject10() {
+  var data = _taggedTemplateLiteral(["\n    box-shadow: 0 0.6vw 1vw -0.4vw rgba(0, 0, 0, 0.35);\n    background-color: #e6e6e6;\n    color: #000;\n    border-width: 0;\n    padding: 10px 20px;\n    border-radius: 5px;\n    max-width: 130px;\n    font-weight: bold;\n    font-size: 20px;\n    margin-top: 10px;\n    cursor: pointer;\n    transition: background-color: 0.5s ease;\n    \n    &:hover {\n        background: #ff1e1e;\n        color: white;\n    }\n"]);
+
+  _templateObject10 = function _templateObject10() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject9() {
+  var data = _taggedTemplateLiteral(["\n\tcolor: white;\n\tfont-size: 50px;\n\tline-height: normal;\n\tfont-weight: bold;\n\ttext-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);\n\tmargin: 0;\n"]);
+
+  _templateObject9 = function _templateObject9() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject8() {
+  var data = _taggedTemplateLiteral(["\n\tpadding: 150px 0 500px 0;\n\tflex-direction: column;\n\talign-items: normal;\n\twidth: 50%;\n\n\t@media (max-width: 1100px) {\n\t\tdisplay: none;\n\t}\n"]);
+
+  _templateObject8 = function _templateObject8() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject7() {
+  var data = _taggedTemplateLiteral(["\n\tcolor: white;\n\tfont-size: 22px;\n\tline-height: normal;\n\ttext-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);\n"]);
+
+  _templateObject7 = function _templateObject7() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject6() {
+  var data = _taggedTemplateLiteral(["\n\tdisplay: flex;\n\talign-items: center;\n"]);
+
+  _templateObject6 = function _templateObject6() {
+    return data;
+  };
+
+  return data;
+}
 
 function _templateObject5() {
   var data = _taggedTemplateLiteral(["\n\theight: 32px;\n\twidth: 108px;\n\tmargin-right: 40px;\n\n\t@media (min-width: 1449px) {\n\t\theight: 45px;\n\t\twidth: 167px;\n\t}\n"]);
@@ -36486,6 +36596,63 @@ exports.ButtonLink = ButtonLink;
 var Logo = _styledComponents.default.img(_templateObject5());
 
 exports.Logo = Logo;
+
+var Group = _styledComponents.default.div(_templateObject6());
+
+exports.Group = Group;
+
+var Text = _styledComponents.default.p(_templateObject7());
+
+exports.Text = Text;
+var Feature = (0, _styledComponents.default)(Container)(_templateObject8());
+exports.Feature = Feature;
+
+var FeatureCallOut = _styledComponents.default.h2(_templateObject9());
+
+exports.FeatureCallOut = FeatureCallOut;
+
+var PlayButton = _styledComponents.default.button(_templateObject10());
+
+exports.PlayButton = PlayButton;
+
+var Search = _styledComponents.default.div(_templateObject11());
+
+exports.Search = Search;
+
+var SearchIcon = _styledComponents.default.button(_templateObject12());
+
+exports.SearchIcon = SearchIcon;
+
+var SearchInput = _styledComponents.default.input(_templateObject13(), function (_ref4) {
+  var active = _ref4.active;
+  return active === true ? '10px' : '0';
+}, function (_ref5) {
+  var active = _ref5.active;
+  return active === true ? '0 10px' : '0';
+}, function (_ref6) {
+  var active = _ref6.active;
+  return active === true ? '1' : '0';
+}, function (_ref7) {
+  var active = _ref7.active;
+  return active === true ? '200px' : '0px';
+});
+
+exports.SearchInput = SearchInput;
+
+var Picture = _styledComponents.default.button(_templateObject14(), function (_ref8) {
+  var src = _ref8.src;
+  return src;
+});
+
+exports.Picture = Picture;
+
+var Dropdown = _styledComponents.default.div(_templateObject15(), Group, Link, Group, Link, Picture);
+
+exports.Dropdown = Dropdown;
+
+var Profile = _styledComponents.default.div(_templateObject16(), Dropdown);
+
+exports.Profile = Profile;
 },{"styled-components":"node_modules/styled-components/dist/styled-components.browser.esm.js","react-router-dom":"node_modules/react-router-dom/esm/react-router-dom.js"}],"src/components/header/index.js":[function(require,module,exports) {
 "use strict";
 
@@ -36494,13 +36661,29 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = Header;
 
-var _react = _interopRequireDefault(require("react"));
+var _react = _interopRequireWildcard(require("react"));
 
 var _reactRouterDom = require("react-router-dom");
 
 var _header = require("./styles/header");
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
 
@@ -36520,25 +36703,118 @@ Header.Frame = function HeaderFrame(_ref2) {
       restProps = _objectWithoutProperties(_ref2, ["children"]);
 
   return /*#__PURE__*/_react.default.createElement(_header.Container, restProps, children);
+};
+
+Header.Group = function HeaderGroup(_ref3) {
+  var children = _ref3.children,
+      restProps = _objectWithoutProperties(_ref3, ["children"]);
+
+  return /*#__PURE__*/_react.default.createElement(_header.Group, restProps, children);
 }; // create a new element called logo
 // use ReachRouterLink
 // pass the children to ReachRouterLink
 
 
-Header.Logo = function HeaderLogo(_ref3) {
-  var to = _ref3.to,
-      restProps = _objectWithoutProperties(_ref3, ["to"]);
+Header.Logo = function HeaderLogo(_ref4) {
+  var to = _ref4.to,
+      restProps = _objectWithoutProperties(_ref4, ["to"]);
 
   return /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
     to: to
   }, /*#__PURE__*/_react.default.createElement(_header.Logo, restProps));
 };
 
-Header.ButtonLink = function HeaderButtonLink(_ref4) {
-  var children = _ref4.children,
-      restProps = _objectWithoutProperties(_ref4, ["children"]);
+Header.ButtonLink = function HeaderButtonLink(_ref5) {
+  var children = _ref5.children,
+      restProps = _objectWithoutProperties(_ref5, ["children"]);
 
   return /*#__PURE__*/_react.default.createElement(_header.ButtonLink, restProps, children);
+};
+
+Header.Link = function HeaderLink(_ref6) {
+  var children = _ref6.children,
+      restProps = _objectWithoutProperties(_ref6, ["children"]);
+
+  return /*#__PURE__*/_react.default.createElement(_header.Link, restProps, children);
+};
+
+Header.Text = function HeaderText(_ref7) {
+  var children = _ref7.children,
+      restProps = _objectWithoutProperties(_ref7, ["children"]);
+
+  return /*#__PURE__*/_react.default.createElement(_header.Text, restProps, children);
+};
+
+Header.Feature = function HeaderFeature(_ref8) {
+  var children = _ref8.children,
+      restProps = _objectWithoutProperties(_ref8, ["children"]);
+
+  return /*#__PURE__*/_react.default.createElement(_header.Feature, restProps, children);
+};
+
+Header.FeatureCallOut = function HeaderFeatureCallOut(_ref9) {
+  var children = _ref9.children,
+      restProps = _objectWithoutProperties(_ref9, ["children"]);
+
+  return /*#__PURE__*/_react.default.createElement(_header.FeatureCallOut, restProps, children);
+};
+
+Header.PlayButton = function HeaderPlayButton(_ref10) {
+  var children = _ref10.children,
+      restProps = _objectWithoutProperties(_ref10, ["children"]);
+
+  return /*#__PURE__*/_react.default.createElement(_header.PlayButton, restProps, children);
+};
+
+Header.Profile = function HeaderProfile(_ref11) {
+  var children = _ref11.children,
+      restProps = _objectWithoutProperties(_ref11, ["children"]);
+
+  return /*#__PURE__*/_react.default.createElement(_header.Profile, restProps, children);
+};
+
+Header.Dropdown = function HeaderDropdown(_ref12) {
+  var children = _ref12.children,
+      restProps = _objectWithoutProperties(_ref12, ["children"]);
+
+  return /*#__PURE__*/_react.default.createElement(_header.Dropdown, restProps, children);
+};
+
+Header.Picture = function HeaderPicture(_ref13) {
+  var src = _ref13.src,
+      restProps = _objectWithoutProperties(_ref13, ["src"]);
+
+  return /*#__PURE__*/_react.default.createElement(_header.Picture, _extends({}, restProps, {
+    src: "images/users/".concat(src, ".png")
+  }));
+};
+
+Header.Search = function HeaderSearch(_ref14) {
+  var searchTerm = _ref14.searchTerm,
+      setSearchTerm = _ref14.setSearchTerm,
+      restProps = _objectWithoutProperties(_ref14, ["searchTerm", "setSearchTerm"]);
+
+  var _useState = (0, _react.useState)(false),
+      _useState2 = _slicedToArray(_useState, 2),
+      searchActive = _useState2[0],
+      setSearchActive = _useState2[1];
+
+  return /*#__PURE__*/_react.default.createElement(_header.Search, restProps, /*#__PURE__*/_react.default.createElement(_header.SearchIcon, {
+    onClick: function onClick() {
+      return setSearchActive(!searchActive);
+    }
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    src: "/images/icons/search.png",
+    alt: "Search"
+  })), /*#__PURE__*/_react.default.createElement(_header.SearchInput, {
+    value: searchTerm,
+    onChange: function onChange(_ref15) {
+      var target = _ref15.target;
+      return setSearchTerm(target.value);
+    },
+    placeholder: "Search files and series",
+    active: searchActive
+  }));
 };
 },{"react":"node_modules/react/index.js","react-router-dom":"node_modules/react-router-dom/esm/react-router-dom.js","./styles/header":"src/components/header/styles/header.js"}],"src/components/feature/styles/feature.js":[function(require,module,exports) {
 "use strict";
@@ -37556,7 +37832,7 @@ exports.default = BrowseContainer;
 
 var _react = _interopRequireWildcard(require("react"));
 
-var _header = require("./header");
+var _components = require("../components");
 
 var ROUTES = _interopRequireWildcard(require("../constants/routes"));
 
@@ -37590,16 +37866,59 @@ function BrowseContainer() {
       profile = _useState2[0],
       setProfile = _useState2[1];
 
+  var _useState3 = (0, _react.useState)(''),
+      _useState4 = _slicedToArray(_useState3, 2),
+      searchTerm = _useState4[0],
+      setSearchTerm = _useState4[1];
+
+  var _useState5 = (0, _react.useState)('series'),
+      _useState6 = _slicedToArray(_useState5, 2),
+      category = _useState6[0],
+      setCategory = _useState6[1];
+
+  var _useState7 = (0, _react.useState)(true),
+      _useState8 = _slicedToArray(_useState7, 2),
+      loading = _useState8[0],
+      setLoading = _useState8[1];
+
   var user = {
     displayName: 'Loïc',
     photoURL: '1'
   };
-  return profile.displayName ? /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("p", null, "Browse Container"), /*#__PURE__*/_react.default.createElement(_footer.default, null)) : /*#__PURE__*/_react.default.createElement(_profiles.default, {
+  return profile.displayName ? /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement(_components.Header, {
+    src: "joker1",
+    dontShowOnSmallViewPort: true
+  }, /*#__PURE__*/_react.default.createElement(_components.Header.Frame, null, /*#__PURE__*/_react.default.createElement(_components.Header.Group, null, /*#__PURE__*/_react.default.createElement(_components.Header.Logo, {
+    to: ROUTES.HOME,
+    src: "/images/misc/logo.svg",
+    alt: "Netflix"
+  }), /*#__PURE__*/_react.default.createElement(_components.Header.Link, {
+    onClick: function onClick() {
+      return setCategory('series');
+    },
+    active: category === 'series' ? 'true' : 'false'
+  }, "Series"), /*#__PURE__*/_react.default.createElement(_components.Header.Link, {
+    onClick: function onClick() {
+      return setCategory('films');
+    },
+    active: category === 'films' ? 'true' : 'false'
+  }, "Films")), /*#__PURE__*/_react.default.createElement(_components.Header.Group, null, /*#__PURE__*/_react.default.createElement(_components.Header.Search, {
+    searchTerm: searchTerm,
+    setSearchTerm: setSearchTerm
+  }), /*#__PURE__*/_react.default.createElement(_components.Header.Profile, null, /*#__PURE__*/_react.default.createElement(_components.Header.Picture, {
+    src: user.photoURL
+  }), /*#__PURE__*/_react.default.createElement(_components.Header.Dropdown, null, /*#__PURE__*/_react.default.createElement(_components.Header.Group, null, /*#__PURE__*/_react.default.createElement(_components.Header.Picture, {
+    src: user.photoURL
+  }), /*#__PURE__*/_react.default.createElement(_components.Header.Link, null, user.displayName)), /*#__PURE__*/_react.default.createElement(_components.Header.Group, null, /*#__PURE__*/_react.default.createElement(_components.Header.Link, {
+    onClick: function onClick() {
+      return firebase.auth().signOut();
+    }
+  }, "Sign out")))))), /*#__PURE__*/_react.default.createElement(_components.Header.Feature, null, /*#__PURE__*/_react.default.createElement(_components.Header.FeatureCallOut, null, "Watch Joker Now"), /*#__PURE__*/_react.default.createElement(_components.Header.Text, null, "Forever alone in a crowd, failed comedian Arthur Fleck seeks connection as he walks the streets of Gotham City. Arthur wears two masks -- the one he paints for his day job as a clown, and the guise he projects in a futile attempt to feel like he's part of the world around him."), /*#__PURE__*/_react.default.createElement(_components.Header.PlayButton, null, "Play"))), /*#__PURE__*/_react.default.createElement(_footer.default, null)) : /*#__PURE__*/_react.default.createElement(_profiles.default, {
     user: user,
     setProfile: setProfile
   });
 }
-},{"react":"node_modules/react/index.js","./header":"src/containers/header.js","../constants/routes":"src/constants/routes.js","../context/firebase":"src/context/firebase.js","./profiles":"src/containers/profiles.js","./footer":"src/containers/footer.js"}],"src/pages/browse.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../components":"src/components/index.js","../constants/routes":"src/constants/routes.js","../context/firebase":"src/context/firebase.js","./profiles":"src/containers/profiles.js","./footer":"src/containers/footer.js"}],"src/pages/browse.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -37749,7 +38068,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57974" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53740" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
